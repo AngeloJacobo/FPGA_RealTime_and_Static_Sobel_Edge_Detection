@@ -47,7 +47,7 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 # Logic Flow:
 ![Camera_Interface](https://user-images.githubusercontent.com/87559347/130389015-2589d32d-d43d-437a-9a33-820c14e3ee12.jpg)
 
-# Image Edge Detection Results:
+# Image Edge Detection Results(Click Image for Higher Resolution):
 
 <img src="https://user-images.githubusercontent.com/87559347/130393017-6cbd5ce5-a6d0-4ab6-aeff-dceb56d9c016.jpg" width="400"> <img src="https://user-images.githubusercontent.com/87559347/130393321-8e9bd069-08fe-4043-bcc4-4fac97f26839.jpg" width="400"> 
 
@@ -59,8 +59,23 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 
 <img src="https://user-images.githubusercontent.com/87559347/130394326-04afa419-479c-4db3-ab97-c7c41a29e359.jpg" width="400"/> <img src="https://user-images.githubusercontent.com/87559347/130394347-4081ecf3-e7ec-474e-bcb0-d92d8d34b76d.jpg" width="400"> 
 
+#
 
+<img src="https://user-images.githubusercontent.com/87559347/130399486-439cb34e-bd26-4f74-acdc-52efd919242e.jpg" width="400"/> <img src="https://user-images.githubusercontent.com/87559347/130399465-0be388d7-aa60-420e-8258-d5d5b5eb4d81.jpg" width="400"> 
 
+#
+
+<img src="https://user-images.githubusercontent.com/87559347/130399511-1c19d764-b0ce-49ea-88cb-5b96da1b907c.jpg" width="400"/> <img src="https://user-images.githubusercontent.com/87559347/130399517-51b25877-0fc8-4009-9331-70f7c2ddfd8c.jpg" width="400"> 
+
+#
+
+<img src="https://user-images.githubusercontent.com/87559347/130399527-9ba52ad8-d60c-4d69-b970-a87914fe7568.jpg" width="400"/> <img src="https://user-images.githubusercontent.com/87559347/130399534-15582e66-3eff-4949-bbb9-1c1c1c9aa333.jpg" width="400"> 
+
+#
+
+<img src="https://user-images.githubusercontent.com/87559347/130399555-8a3939a2-dba3-4440-85a2-06f8a5543834.jpg" width="400"/> <img src="https://user-images.githubusercontent.com/87559347/130399558-baeb6167-444a-4a1b-90f8-a9f942cf89a2.jpg" width="400"> 
+
+#
 
 # Donate   
 Support these open-source projects by donating  

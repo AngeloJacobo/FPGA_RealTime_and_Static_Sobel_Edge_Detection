@@ -49,7 +49,7 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 
 # Image Edge Detection Results:
 
-<img src="https://user-images.githubusercontent.com/87559347/130393017-6cbd5ce5-a6d0-4ab6-aeff-dceb56d9c016.jpg" width="425"> <img src="https://user-images.githubusercontent.com/87559347/130393321-8e9bd069-08fe-4043-bcc4-4fac97f26839.jpg" width="425"> 
+<img src="https://user-images.githubusercontent.com/87559347/130393017-6cbd5ce5-a6d0-4ab6-aeff-dceb56d9c016.jpg" width="400"> <img src="https://user-images.githubusercontent.com/87559347/130393321-8e9bd069-08fe-4043-bcc4-4fac97f26839.jpg" width="400"> 
 
 #
 

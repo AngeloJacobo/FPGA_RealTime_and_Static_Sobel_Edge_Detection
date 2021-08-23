@@ -1,6 +1,8 @@
 Created by: Angelo Jacobo   
 Date: August 22,2021   
 
+[![image](https://user-images.githubusercontent.com/87559347/130410774-096d9e78-5ab5-4119-995c-562e5ab97d4e.png)](https://youtu.be/gles8k_a8vc)
+
 # About:  
 This project implements a pipelined Sobel Edge Detection design for processing both video and image data using FPGA.
 * Video inputs(640x480@30FPS) are retrieved from OV7670 camera and is processed real-time via pipelined convolution module. Threshold value for edge detection is configurable via key[1:0]. key[2] is for alternating display between raw video and edge detected video. **Full codes are on folder "src1"**. 

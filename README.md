@@ -47,6 +47,20 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 # Logic Flow:
 ![Camera_Interface](https://user-images.githubusercontent.com/87559347/130389015-2589d32d-d43d-437a-9a33-820c14e3ee12.jpg)
 
+# Image Edge Detection Results:
+
+<img src="https://user-images.githubusercontent.com/87559347/130393017-6cbd5ce5-a6d0-4ab6-aeff-dceb56d9c016.jpg" width="425"> <img src="https://user-images.githubusercontent.com/87559347/130393321-8e9bd069-08fe-4043-bcc4-4fac97f26839.jpg" width="500"> 
+
+#
+
+<img src="https://user-images.githubusercontent.com/87559347/130393679-1a077ae4-ecc8-4a8c-8bf7-e6d688d83f6d.jpg" width="425"/> <img src="https://user-images.githubusercontent.com/87559347/130393685-84e9d216-fdde-43b3-a20c-6d10c44b605f.jpg" width="500"> 
+
+#
+
+<img src="https://user-images.githubusercontent.com/87559347/130394326-04afa419-479c-4db3-ab97-c7c41a29e359.jpg" width="425"/> <img src="https://user-images.githubusercontent.com/87559347/130394347-4081ecf3-e7ec-474e-bcb0-d92d8d34b76d.jpg" width="500"> 
+
+
+
 
 # Donate   
 Support these open-source projects by donating  

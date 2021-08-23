@@ -18,7 +18,7 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;to vga_interface   
 * vga_interface.v -> Passes the pixel data retrieved from sdram to the vga_core 
 * sobel_convolution.v -> Pipelined convolution logic. Pixel data from camera asyn_fifo are retrieved, processed,  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and then sent to asyn_fifo of vga_interface per clock cycle
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and then sent to asyn_fifo of vga_interface per clock cycle  
 * asyn_fifo.v -> FIFO with separate clock domains for read and write. Solves the clock domain crossing issue(see    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; image below)        
 * i2c_top.v -> Bit-bang implementation of SCCB(which is very similar to i2c)     
@@ -35,7 +35,7 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 * vga_interface.v -> Passes the pixel data retrieved from sdram to the vga_core 
 * uart.v -> UART driver. Set to a baud rate of 100_000 (115_200 produce data errors)      
 * sobel_convolution.v -> Pipelined convolution logic. Pixel data from uart are retrieved, processed, and then sent to   
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;asyn_fifo of vga_interface    
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;asyn_fifo of vga_interface per clock cycle    
 * asyn_fifo.v -> FIFO with separate clock domains for read and write. Solves the clock domain crossing issue(see     
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; image below)         
 * sdram_controller.v -> Controller for storing to and retrieving data from SDRAM. Optimized to a memory     

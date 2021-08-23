@@ -14,7 +14,8 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 * camera_interface.v -> Configures the register of OV7670 via SCCB protocol. Pixel data is retrieved from      
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the camera and then passed to asyn_fifo module    
 * sdram_interface.v -> Controls logic sequence for storing the pixel data retrieved from the camera_interface  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and sobel_convolution module, then sending it to the asyn_fifo connected to vga_interface module   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and sobel_convolution module, then sending it to the asyn_fifo connected   
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;to vga_interface module    
 * vga_interface.v -> Passes the pixel data retrieved from sdram to the vga_core module  
 * sobel_convolution.v -> Pipelined convolution logic. Pixel data from camera asyn_fifo are retrieved, processed,  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and then sent to asyn_fifo of vga_interface  

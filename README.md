@@ -4,9 +4,10 @@ Date: August 22,2021
 [![image](https://user-images.githubusercontent.com/87559347/130410774-096d9e78-5ab5-4119-995c-562e5ab97d4e.png)](https://youtu.be/gles8k_a8vc)
 
 # About:  
-This project implements a pipelined Sobel Edge Detection design for processing both video and image data using FPGA.
-* Video inputs(640x480@30FPS) are retrieved from OV7670 camera and is processed real-time via pipelined convolution module. Threshold value for edge detection is configurable via key[1:0]. key[2] is for alternating display between raw video and edge detected video. **Full codes are on folder "src1"**. 
-* Image inputs(640x480) are extracted from jpeg files using Matlab and is sent to FPGA serially. Python script is used to handle the UART protocol. Sobel edge detection is also done by the pipelined convolution module. Below are the sample images and its results. **Full codes and instructions for running the scripts for Matlab and python are on folder "src2"** 
+This project implements a pipelined Sobel Edge Detection using FPGA. This project is two-part:
+
+* First is video processing. Video inputs(640x480@30FPS) are retrieved from OV7670 camera and is processed real-time via pipelined convolution module. Threshold value for edge detection is configurable via key[1:0]. key[2] is for alternating display between raw video and edge detected video. **Full codes are on folder "src1"**. 
+* Second is image processing. Image inputs(640x480) are extracted from jpeg files using Matlab and is sent to FPGA serially. Python script is used to handle the UART protocol. Sobel edge detection is also done by the pipelined convolution module. Below are the sample images and its results. **Full codes and instructions for running the scripts for Matlab and python are on folder "src2"** 
 
 
 # Inside the src1 folder are:   

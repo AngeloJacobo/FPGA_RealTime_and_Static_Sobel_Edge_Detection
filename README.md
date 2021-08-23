@@ -13,11 +13,11 @@ This project implements a pipelined Sobel Edge Detection design for processing b
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; key[2] to change display between raw video or edge detected video  
 * camera_interface.v -> Configures the register of OV7670 via SCCB protocol. Pixel data is retrieved from      
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;the camera and then passed to asyn_fifo module    
-* sdram_interface.v -> Controls logic sequence for storing the pixel data retrieved from the camera_interface and sobel_convolution  
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; module ,then sending it to the asyn_fifo connected to vga_interface module   
+* sdram_interface.v -> Controls logic sequence for storing the pixel data retrieved from the camera_interface  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and sobel_convolution module, then sending it to the asyn_fifo connected to vga_interface module   
 * vga_interface.v -> Passes the pixel data retrieved from sdram to the vga_core module  
-* sobel_convolution.v -> Pipelined convolution logic. Pixel data from camera asyn_fifo are retrieved, processed, and then sent to 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;asyn_fifo of vga_interface  
+* sobel_convolution.v -> Pipelined convolution logic. Pixel data from camera asyn_fifo are retrieved, processed,  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;and then sent to asyn_fifo of vga_interface  
 * asyn_fifo.v -> FIFO with separate clock domains for read and write. Solves the clock domain crossing issue(see    
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; image below)        
 * i2c_top.v -> Bit-bang implementation of SCCB(which is very similar to i2c)     

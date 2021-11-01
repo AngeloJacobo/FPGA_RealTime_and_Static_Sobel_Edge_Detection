@@ -29,7 +29,7 @@ This project implements a pipelined Sobel Edge Detection using FPGA. This projec
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; bandwidth of 316MB/s     
 * vga_core.v -> VGA controller. Set at 640x480 @ 60fps     
 * top_module.ucf -> Constraint file for top_module.v      
-### **NOTE: dcm_25MHz.v and dcm_165MHz.v are PLL instantiations specific to Xilinx. Replace these files(and also the instantiation of these PLLs on the source code) when implementing this design to other FPGAs.**   
+#### **NOTE: dcm_25MHz.v and dcm_165MHz.v are PLL instantiations specific to Xilinx. Replace these files(and also the instantiation of these PLLs on the source code) when implementing this design to other FPGAs.**   
 
 # Inside the src2 folder are:   
 * top_module.v -> Combines the sdram_interface, vga_interface, and UART modules.    
@@ -46,7 +46,7 @@ This project implements a pipelined Sobel Edge Detection using FPGA. This projec
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; bandwidth of 316MB/s     
 * vga_core.v -> VGA controller. Set at 640x480 @ 60fps     
 * top_module.ucf -> Constraint file for top_module.v    
-### **NOTE: dcm_25MHz.v and dcm_165MHz.v are PLL instantiations specific to Xilinx. Replace these files(and also the instantiation of these PLLs on the source code) when implementing this design to other FPGAs.**  
+#### **NOTE: dcm_25MHz.v and dcm_165MHz.v are PLL instantiations specific to Xilinx. Replace these files(and also the instantiation of these PLLs on the source code) when implementing this design to other FPGAs.**  
 
 # Logic Flow:
 ![Camera_Interface](https://user-images.githubusercontent.com/87559347/130389015-2589d32d-d43d-437a-9a33-820c14e3ee12.jpg)
